@@ -1,0 +1,25 @@
+{
+  "name": "lorem-notredamedeparisum",
+  "version": "1.0.0",
+  "description": "lorem from notre dame de paris by victor hugo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bassochette/lorem-notredamedeparisum"
+  },
+  "author": "Julien Prugne",
+  "main": "cli.js",
+  "scripts": {
+    "patch-release": "npm version patch && npm publish && git push --follow-tags"
+  },
+  "bin": {
+    "lorem-notredamedeparisum": "cli.js"
+  },
+  "keywords": [
+    "lorem ipsum",
+    "Notre dame de paris"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
